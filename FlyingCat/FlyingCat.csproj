@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="flyingCat.png" />
+    <None Remove="pngaaa.com-1562919.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="flyingCat.png" />
+    <Resource Include="pngaaa.com-1562919.png" />
+  </ItemGroup>
+
+</Project>
